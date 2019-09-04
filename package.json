@@ -11,10 +11,10 @@
     "postinstall": "bower install",
     "vueBuild": "cross-env NODE_ENV=production webpack --inline --progress --config=webpack.config.js",
     "vueDev": "cross-env NODE_ENV=development webpack-dev-server --inline --progress --config=webpack.config.js",
-    "vueDevT":"webpack-dev-server --config=config/webpackT.js",
-    "vueDevS":"webpack-dev-server --config=config/webpackS.js",
-    "vueBuildT":"cross-env NODE_ENV=production webpack --config=config/webpackTb.js",
-    "vueBuildS":"cross-env NODE_ENV=production webpack --config=config/webpackSb.js"
+    "vueDevT": "webpack-dev-server --config=config/webpackT.js",
+    "vueDevS": "webpack-dev-server --config=config/webpackS.js",
+    "vueBuildT": "cross-env NODE_ENV=production webpack --config=config/webpackTb.js",
+    "vueBuildS": "cross-env NODE_ENV=production webpack --config=config/webpackSb.js"
   },
   "repository": {
     "type": "git",
